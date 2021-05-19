@@ -1,0 +1,29 @@
+<div class="main-container">
+    <section>
+        <p class="">Pizza Orders:</p>
+        <div>
+            <table class="table table-bordered">
+                <thead class="font-class">
+                    <th>Customer Name</th>
+                    <th>No. of Items Ordered</th>
+                    <th>Total Amt.</th>
+                    <th>Status</th>
+                </thead>
+                <tbody>
+                <tr class="font-class" *ngFor="let pizza of allPizzaArray" (click)="viewPizzaDetail(pizza)">
+                    <td>{{pizza.customerName}}</td>
+                    <td>{{pizza.noOfItems}}</td>
+                    <td>{{pizza.totalAmount}}</td>
+                    <td>{{pizza.status}}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>
+<div *ngIf="showDetailItemModal">
+    <app-pizza-detail [pizzaDetailObj]="pizzaDetailObj" (childStatus)="refreshParent($event)"></app-pizza-detail>
+</div>
+<!-- Customer Name, No. of Items ordered, Total
+ Amount of the Order, Status of the Order, and a clickable Change Status button, that changes the
+ status of the order to the next state automatically on click -->

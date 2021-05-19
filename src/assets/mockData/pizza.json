@@ -1,0 +1,187 @@
+[
+    {
+        "customerId": "1",
+        "customerName": "Sindhu",
+        "address": "N0. 4, 8th cross, kareen nagar, hyderabad- 560038",
+        "pizzasOrdered":[
+            {
+                "pizzaName": "Margarita",
+                "price": 280,
+                "url":"margarita.jpg"
+            },
+            {
+                "pizzaName": "Margarita",
+                "price": 280 ,
+                "url":"margarita.jpg"
+            },
+            {
+                "pizzaName": "Tandoori Paneer",
+                "price": 529,
+                "url":"tandoori-paneer.jpg"
+            },
+            {
+                "pizzaName": "Tandoori Paneer",
+                "price": 529,
+                "url":"tandoori-paneer.jpg"
+            }
+        ],
+        "noOfItems": "4",
+        "totalAmount": "",
+        "status": 0
+    },
+    {
+        "customerId": "2",
+        "customerName": "Chethan",
+        "address": "N0. 2, 8th cross, Mahadevapure, Bangalore- 560048",
+        "pizzasOrdered":[
+            {
+                "pizzaName": "Margarita",
+                "price": 280,
+                "url":"margarita.jpg" 
+            },
+            {
+                "pizzaName": "Tandoori Paneer",
+                "price": 529,
+                "url":"tandoori-paneer.jpg"
+            }
+        ],
+        "noOfItems": "2",
+        "totalAmount": "",
+        "status": 2
+    },
+    {
+        "customerId":"3",
+        "customerName": "Lakshmi",
+        "address": "N0. 3, 6th cross, Krishnapppa building, kareen nagar, Salem- 534089",
+        "pizzasOrdered":[
+            {
+                "pizzaName": "Veg Kebab Suprise",
+                "price": 530 ,
+                "url":"veg-kebab-surprise1.jpg" 
+            }
+        ],
+        "noOfItems": "1",
+        "totalAmount": "",
+        "status": 1
+    },
+    {
+        "customerId":"4",
+        "customerName": "Ashwin",
+        "address": "#348 ,D block, Surya Apartment, Akshay Nagar, Banaglore- 560034",
+        "pizzasOrdered":[
+            {
+                "pizzaName": "Margarita",
+                "price": 280,
+                "url":"margarita.jpg"  
+            },
+            {
+                "pizzaName": "Chicken Tikka",
+                "price": 569,
+                "url":"chicken-tikka-supreme1.jpg"  
+            },
+            {
+                "pizzaName": "Chicken Tikka",
+                "price": 569,
+                "url":"chicken-tikka-supreme1.jpg"  
+            }
+        ],
+        "noOfItems": "3",
+        "totalAmount": "",
+        "status": 2
+    },
+    {
+        "customerId":"5",
+        "customerName": "Sindhu",
+        "address": "N0. 4, 8th cross, kareen nagar, hyderabad- 560038",
+        "pizzasOrdered":[
+            {
+                "pizzaName": "Margarita",
+                "price": 280,
+                "url":"margarita.jpg"  
+            },
+            {
+                "pizzaName": "Chicken Tikka Supreme",
+                "price": 630,
+                "url":"chicken-tikka-supreme1.jpg" 
+            },
+            {
+                "pizzaName": "Chicken Tikka Supreme",
+                "price": 630, 
+                "url":"chicken-tikka-supreme1.jpg" 
+            },
+            {
+                "pizzaName": "Triple Chicken",
+                "price": 280,
+                "url":"triple-chicken-feast.jpg"  
+            }
+        ],
+        "noOfItems": "4",
+        "totalAmount": "",
+        "status": 0
+    },
+    {
+        "customerId":"6",
+        "customerName": "Shwetha",
+        "address": "N0. 4, 8th cross, kareen nagar, hyderabad- 560038",
+        "pizzasOrdered":[
+            {
+                "pizzaName": "Double Paneer Supreme",
+                "price": 280,
+                "url":"double-paneer-supreme1.jpg"  
+            },
+            {
+                "pizzaName": "Triple Chicken",
+                "price": 620,
+                "url":"triple-chicken-feast.jpg"  
+            },
+            {
+                "pizzaName": "Triple Chicken",
+                "price": 630 ,
+                "url":"triple-chicken-feast.jpg" 
+            },
+            {
+                "pizzaName": "Margarita",
+                "price": 280 ,
+                "url":"margarita.jpg" 
+            },
+            {
+                "pizzaName": "Veg Kebab Suprise",
+                "price": 280 ,
+                "url":"veg-kebab-surprise1.jpg" 
+            },
+            {
+                "pizzaName": "Veg Kebab Suprise",
+                "price": 280 ,
+                "url":"veg-kebab-surprise1.jpg" 
+            }
+        ],
+        "noOfItems": "6",
+        "totalAmount": "",
+        "status": 1
+    },
+    {   
+        "customerId":"7",
+        "customerName": "Narayan",
+        "address": "N0. 4, 8th cross, kareen nagar, hyderabad- 560038",
+        "pizzasOrdered":[
+            {
+                "pizzaName": "Margarita",
+                "price": 280 ,
+                "url":"margarita.jpg" 
+            },
+            {
+                "pizzaName": "Margarita",
+                "price": 280 ,
+                "url":"margarita.jpg" 
+            },
+            {
+                "pizzaName": "Margarita",
+                "price": 280 ,
+                "url":"margarita.jpg" 
+            }
+        ],
+        "noOfItems": "3",
+        "totalAmount": "",
+        "status": 2
+    }
+]

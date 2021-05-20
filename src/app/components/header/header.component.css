@@ -1,51 +1,51 @@
 .header-container {
     position: sticky;
     top: 0;
-    z-index: 9999;
     padding: 1rem 2rem;
-  }
-  .profile{
-    display: flex;
-    align-items: flex-start;
-  }
-  .app-details {
+    overflow: hidden;
+    font-variant: all-petite-caps;
+}
+
+.app-details {
     display: flex;
     justify-content: center;
-    width: 100%;
-  }
-  .user-details {
+}
+
+.user-details {
     color: black;
     display: flex;
     text-align: center;
-  }
-  .user-details img{
-      width:4rem
-  }
-  
-  .main-container{
+    justify-content: flex-end;
+}
+
+.user-details img {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
+
+.main-container {
     overflow: hidden;
-  }
-  
-  .logo {
+}
+
+.logo {
     display: flex;
-  }
-  .logo img {
+}
+
+.logo img {
     height: 100%;
     width: 2rem;
     margin-left: 0.8rem;
-  }
-  .main-container .row {
+}
+
+.main-container .row {
     display: flex;
     align-items: center;
-  }
-  .app-title {
+}
+
+.app-title {
     display: flex;
     align-items: center;
     font-size: 1.8rem;
     color: #501d1d;
-    
-  }
-  
-  /* font-family: Open Sans,system-ui,BlinkMacSystemFont,Helvetica Neue,Helvetica,sans-serif;
-      font-size: 14px;
-      line-height: 1.75; */
+}

@@ -1,84 +1,258 @@
-.main-container{
+.main-container {
     background-image: url("../../../assets/images/table.jpg");
-    overflow:hidden;
-    
-    
+    overflow: hidden;
 }
+
 section {
     margin: 20px;
 }
 
 table {
     margin: auto;
-    /* width: 70rem; */
+    font-variant: all-petite-caps;
 }
-section div{
-    overflow-y: auto;
-    height: 40rem;
-}
-.table-bordered{
-    border: 2px solid #ce8b27;
-    
-}
-tr th{
-    border-color: black;
-} 
 
-.card-reference-id {
-    position: absolute;
-    top:50%;
-    left:50%;
-    border-radius: 0;
-    margin: 2rem;
-  }
-thead th, tr td{
-    text-align: center;  
-    padding: 2rem; 
+section div {
+    overflow-y: auto;
+    height: 25rem;
+}
+
+.table-bordered {
+    border: 2px solid #ce8b27;
+}
+
+tr th {
+    border-color: black;
+}
+
+thead th,
+tr td {
+    text-align: center;
+    padding: 1rem;
     color: #501d1d;
 }
-th ,td{
+
+th,
+td {
     padding: 2rem;
 }
-td:first-child {
-    text-align: left;
-}
-tr:hover{
+
+tr:hover {
     background-color: lightgray;
 }
-.font-class > th{
-    font-size: 17px;
-}
-p{
-    color: #7b0621;
+
+.font-class>th {
     font-size: 20px;
 }
-.font-class > td{
-font-size: 15px;
-font-weight: 600;
-}
-/* tr:nth-child(even) { */
-    /* background-color: white; */
-/* } */
 
-/* tr:nth-child(odd) {
+p {
+    color: #7b0621;
+    font-size: 30px;
+    text-shadow: 1px 1px #c1722f;
+    font-weight: 600;
+    font-variant: all-petite-caps;
+}
+
+.font-class>td {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.font-class:active {
     background-color: lightgray;
 }
 
-tr:first-child {
-    background-color: lightgray;
-} */
-
-.top-left {
-    position: fixed;
-    top: 120px;
-    left: 20px;
-    width: 150px;
-}
-.font-class:active{
-    background-color: lightgray;
+.row-ref {
+    display: flex;
+    flex-direction: column;
 }
 
+.row-ref>div {
+    margin-bottom: 1rem;
+}
 
+.address {
+    word-break: normal;
+    color: rgb(82 0 4);
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+}
 
+.label {
+    color: #313896;
+    padding: 0;
+    font-weight: 600;
+    font-family: proxima-nova, sans-serif;
+}
 
+.cust-details {
+    color: black;
+    text-align: start;
+    font-size: 18px;
+}
 
+.cust-name {
+    color: brown;
+}
+
+.total {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pizza-details {
+    width: 100%;
+    font-family: proxima-nova, sans-serif;
+    font-size: small;
+}
+
+.pizza-details img {
+    width: 5rem;
+    float: left;
+}
+
+.name {
+    margin: 0.5rem;
+}
+
+.type {
+    font-size: 12px;
+}
+
+.name-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-type>div>img {
+    margin: 1rem;
+}
+
+.prize {
+    text-align: end;
+}
+
+.amount {
+    font-size: large;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #501d1d;
+    border-radius: 50%;
+}
+
+.connecter {
+    height: 2.5rem;
+    display: block;
+    border: 0.5px solid #501d1d;
+    width: 0.10rem;
+}
+
+.connecter-active {
+    height: 2.5rem;
+    display: block;
+    border: 0.25px solid #501d1d;
+    width: 0.10rem;
+}
+
+.connecter-inactive {
+    height: 2.5rem;
+    display: block;
+    border: 0.25px solid #501d1d;
+    width: 0.10rem;
+    opacity: 0.4;
+}
+
+.visit-flow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.visit-status {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.visit-status span.visit-active:first-child {
+    width: 25px;
+    height: 25px;
+    border: 4px solid #501d1d;
+    border-radius: 50%;
+}
+
+.visit-description {
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.visit-description-active {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.visit-description-inactive {
+    font-size: 12px;
+    opacity: 0.4;
+}
+
+.visit-inactive {
+    background: #ffffff;
+    opacity: 0.4
+}
+
+.visit-active {
+    background: #ce8b27;
+    border: 4px solid #501d1d;
+}
+
+.visit-completed {
+    background: #501d1d;
+    width: 25px;
+    height: 25px;
+}
+
+.visit-description.inactive {
+    opacity: 0.4
+}
+
+.card.visit-progression-flow .visit-flow:last-child .visit-status .connecter {
+    display: none;
+}
+
+.visit-progression-flow {
+    border-radius: 0;
+    padding: 0.5rem;
+    margin-bottom: 60px !important;
+}
+
+.export-model-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    height: auto;
+    outline: 0;
+}
+
+.export-main-header-ref {
+    padding-bottom: 0.3rem;
+    font-size: 14px;
+    border-bottom: 0;
+}
+
+.export-modal-body-content {
+    height: 400px;
+    overflow-y: auto;
+}

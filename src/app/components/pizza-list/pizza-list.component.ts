@@ -40,13 +40,20 @@ export class PizzaListComponent implements OnInit {
           totalPizzasOrderPrice += element['price'];
         });
         array['totalAmount'] = totalPizzasOrderPrice;
+        
+        let curStatus= this.statusDetails.find(element => {
+          if (array['status'] == element['id']) {
+            return element['status'];
+          }
+        });
+        array['status']= curStatus['status'];
       });
     });
   }
   viewPizzaDetail(content, pizzaDetail) {
     this.pizzaDetailObj = Object.assign(pizzaDetail);
           this.currentStatus = this.statusDetails.find(element => {
-            if (this.pizzaDetailObj['status'] == element['id']) {
+            if (this.pizzaDetailObj['status'] == element['status']) {
               return element['id'];
             }
           });
